@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  ORTADAKİ ADAM (MITM) SALDIRISI
+title:  (MITM) NEDİR ?
 date:   2020-12-25 20:45:55 +0300
 image:  01.jpg
 tags:   [linux]
