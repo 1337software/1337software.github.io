@@ -2,7 +2,7 @@
 layout: post
 title:  Microsoft, Azure Bulut Müşterilerini Hedefleyen Hacker Grubunu Uyardı
 date:   2020-12-26 20:11:55 +0300
-image:  azure.jpg
+image:  hackazur.jpg
 tags:   [hacker]
 ---
 
