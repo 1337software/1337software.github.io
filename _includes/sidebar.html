@@ -52,32 +52,6 @@
     </ul>
   </div>
 
-  <div class="widget widget-newsletter">
-    <h3 class="widget-title">Haber bülteni</h3>
-    <div class="newsletter-subtitle">İlginç Haberler Alın</div>
-    <div class="newsletter-text">E-posta yoluyla en son haberleri alın.</div>
-    <form class="c-newsletter-form validate" action="{% if site.mailchimp %}//{{site.mailchimp}}{% else %}#{% endif %}" method="POST"
-      id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate>
-      <div class="newsletter-group">
-        <div class="newsletter-group-top">
-          <label class="screen-reader-text" for="mce-EMAIL">E-Posta adresi</label>
-          <i class="email-icon ion ion-ios-mail"></i>
-          <input class="newsletter-email required email" id="mce-EMAIL" type="text" name="EMAIL" placeholder="E-mail">
-        </div>
-        <input class="newsletter-button" id="mc-embedded-subscribe" type="submit" name="subscribe" value="Abone Ol">
-      </div>
-    </form>
-  </div>
-
-  {% if site.instafeed == true %}
-  <div class="widget widget-instagram">
-    <h3 class="widget-title">Instagram</h3>
-    <div class="instagram-box">
-      <ul id="instafeed" class="instagram-grid list-reset clearfix"></ul>
-      <a class="instagram-prof" href="#">@1337</a>
-    </div>
-  </div>
-  {% endif %}
 
   <div class="widget widget-tags">
     <h3 class="widget-title">Etiketler</h3>
