@@ -5,8 +5,8 @@ permalink: /iletisim/
 ---
 
 
-#### Merhaba, Kurumsal Bilgilerimiz.
-<small>2014 - 2020</small>
+#### Kurumsal Bilgilerimiz
+
 
 kurumsal olarak blogumuzu yayina gecirdik..
 <br>Iletısım Bılgılerımız
