@@ -5,9 +5,9 @@ date:   2020-12-24 20:45:55 +0300
 image:  01.jpg
 tags:   [linux]
 ---
-## Ortadaki Adam Saldırısı Nedir? 
+## (MITM) NEDİR ?
 
-Ortadaki adam saldırısı, kötü niyetli bir oyuncunun kendisini iki taraf arasındaki bir konuşmaya dahil ettiği, her iki tarafı taklit ettiği ve iki tarafın birbirine göndermeye çalıştığı bilgilere erişim sağladığı bir tür siber saldırıdır. 
+(MITM) NEDİR ?, kötü niyetli bir oyuncunun kendisini iki taraf arasındaki bir konuşmaya dahil ettiği, her iki tarafı taklit ettiği ve iki tarafın birbirine göndermeye çalıştığı bilgilere erişim sağladığı bir tür siber saldırıdır. 
 
 Ortadaki adam saldırısı, kötü niyetli bir aktörün, dışarıdan herhangi biri çok geç olana kadar bilmeden, başka biri için tasarlanmış veya hiç gönderilmesi amaçlanmamış verileri durdurmasına, göndermesine ve almasına olanak tanır. 
 
