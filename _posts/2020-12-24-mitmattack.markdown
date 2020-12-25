@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  ORTADAKİ ADAM (MITM) SALDIRISI
-date:   2020-12-17 20:45:55 +0300
+date:   2020-12-24 20:45:55 +0300
 image:  01.jpg
 tags:   [linux]
 ---

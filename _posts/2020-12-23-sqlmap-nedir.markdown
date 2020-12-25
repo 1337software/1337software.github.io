@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  SQLMAP Nedir? (Giriş) 
-date:   2020-12-20 23:50:30 +0300
+date:   2020-12-23 23:50:30 +0300
 image:  sqlmapon.jpg
 tags:   linux
 ---
