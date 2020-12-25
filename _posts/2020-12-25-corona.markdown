@@ -1,0 +1,75 @@
+---
+layout: post
+title:  COVID-19 Krizi Sırasında Kötü Amaçlı Yazılımlara, Kimlik Avına ve Dolandırıcılıklara Karşı Nasıl Savunulur?
+date:   2020-12-25 23:43:55 +0300
+image:  phishing.jpg
+tags:   [phishing]
+---
+
+Son beş yılda kimlik avı dolandırıcılığı ve kötü amaçlı yazılım saldırılarındaki üstel artış yeterli değilmiş gibi, COVID-19 krizi durumu daha da kötüleştirdi.
+
+Mevcut senaryo, siber suçlulara bireyleri, küçük ve büyük işletmeleri, devlet şirketlerini hedeflemenin bir yolunu bulmaları için uygun bir fırsat verdi.
+
+Interpol'ün 194 ülkenin geri bildirimlerine dayanan COVID-19 Siber Suç Analiz Raporuna göre, pandeminin ardından dünya çapında en büyük dijital tehditler olarak kimlik avı / dolandırıcılık / dolandırıcılık, kötü amaçlı yazılım / fidye yazılımı, kötü amaçlı alanlar ve sahte haberler ortaya çıktı. .
+
+2020'de ortaya çıkan siber tehditlerin başlıca iki nedeni vardır:
+
+Nüfusun çoğu çalışıyor, öğreniyor, alışveriş yapıyor veya işlerini evden / kamuya açık internet bağlantısından kişisel cihazları kullandıkları, genellikle güvensiz ve bu nedenle siber suçlara karşı oldukça savunmasız olan evden yürütüyor.
+Siber suçlular, kötü niyetli e-postalar ve etki alanları aracılığıyla insanları ve kuruluşları istismar etmek için COVID-19 temasını kullanıyor. Örneğin, birçok dolandırıcı COVID-19 aşıları, ücretsiz tıbbi testler ve test kitleri, salgın yardım fonlarına bağış için vergi iadeleri, COVID-19 vakaları hakkında bilgiler ve ekonomik gerileme nedeniyle yeni iş fırsatları sunan kampanyalar başlattı. Hatta bazıları COVID-19 güvenlik, sağlık ve temizlik ürünleri satan sahte e-ticaret web siteleri bile başlattı.
+2020'de meydana gelen birkaç siber tehdit ve güvenlik ihlali örneğine bir göz atalım.
+
+Dolandırıcılar
+
+In Nisan 2020 , dolandırıcılar hayali bir COVID-19 fonuna kamu arayan bağış e-postalar göndermek için () Dünya Sağlık Örgütü taklit ettin.
+In Mart 2020 , ABD'de Adalet Bakanlığı coronavirusmedicalkit adında bir internet sitesini kapatması için federal mahkemede yasal bir itiraz dilekçesi sundu [.] Com ücretsiz aşı kitleri satmaya iddia ettiği.
+E-dolandırıcılık
+
+Bir phingscam kampanyası , İK çalışanlarına sahte Zoom davetleri gönderdi. Fikir, şifrelerini çalmaktı.
+Birkaç Birleşik Krallık vatandaşı sahte bir devlet kimliğinden COVID-19 krizinden korunmak için vergi iadesi talep etmelerini söyleyen bir e-posta aldı.
+Kötü amaçlı yazılım
+
+Powershell kötü amaçlı yazılım saldırıları, 2020'de Kuzey Amerika'da % 117'lik keskin bir artışa tanık oldu .
+Ryuk , 2020'de ABD hastanelerine ve sağlık hizmeti sağlayıcılarına yönelik en büyük kötü amaçlı yazılım tehditlerinden biri olarak ortaya çıktı.
+COVID-19 Dijital Tehditlerine Karşı Korunma Yolları
+Siber risk yönetimi, aşağıda listelenen hem önleyici hem de tespit edici önlemleri gerektirir:
+
+1 - Personelinizi Eğitin
+
+Kimlik avı e-postalarının çoğu o kadar yasal görünür ki, çalışanlarınızın gönderenin e-posta kimliğini veya iletinin gövdesindeki bilgileri doğrulamadan eki veya gömülü bağlantıyı açma olasılığı yüksektir.
+
+Çalışanlarınız arasında kimliği doğrulanmamış e-postaları belirlemelerine yardımcı olmak için siber güvenlik bilinci oluşturun. Gönderenin e-posta adresini iki kez kontrol etmelerini ve dil bilgisi hatalarını veya alışılmadık istekleri aramalarını söyleyin. Herhangi bir şeyden şüphelenirlerse, e-postayı iş arkadaşlarına iletmek yerine hemen BT ekibiyle iletişime geçmelidirler.
+
+2 - Verileri Şifrele ve Yedekle
+
+Şirketinizin, müşterilerinizin ve çalışanlarınızın tüm hassas verilerini şifrelemek için tam disk şifreleme yazılımı kullanmanız gerekir.
+
+Veritabanlarınızın, dosyalarınızın ve veritabanlarınızın düzenli aralıklarla bir sistem yedeğini almak da her zaman iyi bir fikirdir.
+
+Yedeklemenin genel kuralı 3-2-1'dir: en az üç kopya oluşturun, bunlardan ikisi farklı ortamlarda (cihazlar / bulut) olmalı ve bir kopya felaket kurtarma için saha dışında olmalıdır.
+
+3 - Uzaktan Çalışma için Siber Güvenlik Politikasını Güçlendirin
+
+Çalışanlarınız için, ev bilgisayar cihazlarını ve internet bağlantısını kullanma protokolünü belirleyen katı bir kural kitabı oluşturmak çok önemlidir. Güvenli bir internet bağlantısı kullanmalı, kişisel kullanım için ofis cihazlarından kaçınmalı ve resmi dosyaları / bilgileri yalnızca şirket depolama sistemlerinde saklamalıdırlar.
+
+Ayrıca, şirketinizin VPN, kritik iş sistemleri ve diğer uzak ağ bağlantıları için sağlam güvenlik duvarı kuralları ve çok katmanlı kimlik doğrulaması uyguladığından emin olun. Çalışanlarınızın, kullanmaları gereken şirket onaylı uygulamaları ve işbirliği araçlarını bilmesini sağlayın.
+
+4 - Anti-Virüs Çözümlerini Kullanın
+
+Bu, temel güvenlik protokolü gibi görünebilir, ancak şirket sunucularınıza ve cihazlarınıza gelişmiş ve güvenilir bir anti-virüs yazılımı yüklemek son derece önemlidir.
+
+5 - Web ve Mobil Uygulamalarınızı Koruyun
+
+COVID-19, dünyayı her yönden dijitali kucaklamaya zorlarken, web ve mobil uygulamalarınız siber tehditler ve güvenlik ihlalleri nedeniyle daha fazla risk altındadır. Bu nedenle, uygulama güvenlik risklerini proaktif olarak izlemeli ve bunları azaltmak için önleyici tedbirler almalısınız.
+
+Bunu Indusface tarafından sunulan risk tabanlı, tam olarak yönetilen bir uygulama güvenlik çözümü olan AppTrana'yı uygulayarak yapabilirsiniz. AppTrana, OWASP istismarlarına, DDOS saldırılarına, Bot Azaltma ve Sıfırıncı Gün saldırılarına karşı gerçek zamanlı koruma sağlar.
+
+Kapsamlı bir web uygulaması güvenlik açığı tespit çözümü olan Indusface WAS'ı da düşünebilirsiniz . İsteğe bağlı Manuel Penetrasyon Testi ve manuel doğrulama yoluyla yanlış pozitif kaldırma ile birlikte Otomatik DAST Tarayıcı sağlar .
+
+Mobil güvenlik çözümleri arıyorsanız, Indusface MAS, güvenlik açığı tespiti için iOS, Android ve Windows dahil olmak üzere çoklu platform kapsamı ile derinlemesine Pen testi çalıştırır.
+
+Sonuç
+COVID-19, kuruluşların dijital tehditleri uzak tutmak için siber güvenlik politikalarını yeniden stratejilendirme ihtiyacını doğurdu.
+
+Küresel dijital kullanımın önümüzdeki yıllarda sürekli artması beklendiğinden, siber tehditlerin devam eden pandemiden sonra bile burada kalacağını anlamak da önemlidir.
+
+Bu nedenle, siber saldırılarla etkili bir şekilde mücadele etmek için tüm cephelerde hazırlıklı olmanızın faydası olacaktır.
