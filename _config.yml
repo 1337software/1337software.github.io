@@ -1,10 +1,10 @@
 #-------------------------------
 # General Site Settings
 
-title: 1337 | Sanal bir blog...
-description: Eski bir efsanenin yarım kalmış hikayesi... # this means to ignore newlines until "baseurl:"
+title: 1337 | Yazılım ve Siber Güvenlik Topluluğu...
+description: 1337 | Yazılım ve Siber Güvenlik Topluluğu... # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://1337.net.tr" # the base hostname & protocol for your site, e.g. http://example.com
 
 
 #-------------------------------
