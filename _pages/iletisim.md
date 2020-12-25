@@ -4,7 +4,7 @@ title: Iletisim
 permalink: /iletisim/
 ---
 
-<center>5651 Sayılı Kanun kapsamında BTK kurumu tarafından onaylı Yer Sağlayıcı'dır.
+<center>5651 sayılı kanun kapsamında BTK kurumu tarafından onaylı yer sağlayıcı'dır.
 
 hukuka ve mevzuata aykırı olduğunu düşündüğünüz içeriği bize bildirebilirsiniz.
 size 24 saat içinde dönüş sağlarız.
