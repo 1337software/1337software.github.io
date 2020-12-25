@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  COVID-19 Krizi Sırasında Kötü Amaçlı Yazılımlara, Kimlik Avına ve Dolandırıcılıklara Karşı Nasıl Savunulur?
+title:  COVID-19 Artan Dolandırıcılıklara Karşı Nasıl Savunulur?
 date:   2020-12-25 23:43:55 +0300
 image:  phishing.jpg
 tags:   [phishing]
