@@ -3,7 +3,7 @@ layout: post
 title:  THY Teknik A.Ş, Türkiye'nin İlk Yerli Ve Milli Sunucu İle Modemini Üretti!
 date:   2020-12-28 17:38:55 +0300
 image:  thyteknik.jpg
-tags:   [teknoloji]
+tags:   [teknoloji, sunucu, server, yazilim, linux]
 ---
 
 Türk Hava Yolları (THY) Teknik A.Ş. Türkiye'nin ilk yerli ve milli sunucu ve modemini üretti.
