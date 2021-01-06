@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  İş Bankası API kullanan kullanıcı sayısı 1000’i aştı
+title:  İş Bankası API kullanan kullanıcı sayısını aştı
 date:   2021-01-05 15:40:15 +0300
 image:  turkiye-is-bankasi.png
 tags:   [software]
