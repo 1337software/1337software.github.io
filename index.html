@@ -8,7 +8,7 @@ layout: default
 		{% if forloop.index <= 1 %}
 		<div class="col col-12">
 			<article class="article-first">
-				<a href="http://google.com"><div class="article-image-first" style="background-image: url({{"/img/" | prepend: site.baseurl | append : post.image}})">
+				<div class="article-image-first" style="background-image: url({{"/img/" | prepend: site.baseurl | append : post.image}})">
 					<div class="article-content-first">
 						<div class="article-tag">
 						{% if post.tags.size >= 1 %}
@@ -22,7 +22,6 @@ layout: default
 						
 					</div>
 				</div>
-				</a>
 			</article> <!-- /.article-first -->
 		</div>
 		{% endif %}
