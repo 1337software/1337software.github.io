@@ -1,0 +1,31 @@
+---
+layout: post
+title:  Mercedes-Benz Türkiye'de Yazılım Üssünü Aktif Ediyor!
+date:   2021-01-11 16:05:15 +0300
+image:  mercedes.jpg
+tags:   [technology, software]
+---
+
+Daimler Mobility AG, dünyadaki ilk yazılım geliştirme üssünü Türkiye’de kuracağını açıkladı.
+
+
+
+Mercedes-Benz’in ana şirketi Daimler AG, 2013 yılında küresel IT stratejisi kapsamında Türkiye’yi bilgi teknolojileri üslerinden biri olarak konumlandırmasının ardından, Hindistan’a paralel olarak Küresel IT Çözümleri Merkezini Türkiye’de açtı.
+
+Son 7 yılda sorumluluklarına yenilerini ekleyen merkezin, 2021 yılında kurulacak Daimler Mobility Global Tech-Hub, Daimler Mobility AG.’nin kurduğu ilk yazılım geliştirme üssü olacağı kaydedildi.
+
+Verilen bilgiye göre, Daimler Mobility Global Tech-Hub, Daimler Mobility AG’nin küresel anlamda hizmet verecek dünyadaki ilk teknoloji hub’ı olmanın yanı sıra finansal hizmetler, bankacılık ve sigortacılık alanında birçok lokasyona baştan sona yazılım desteği sağlayacak.
+
+
+Yapılan açıklamada, 2013 yılında 38 çalışan ile faaliyetlerine başlayan Küresel IT Çözümleri Merkezi'nin, 7 yılda 10 kat büyüyerek mevcutta tedarikçileri ile beraber 380’in üzerinde çalışanı ile yatırımlarına ara vermeden devam ettiği kaydedildi.
+
+Bu çerçevede 2021 yılında da Küresel IT Çözümleri Merkezi çatısı altında kurulacak olan Daimler Mobility Global Tech-Hub ekibine yazılım geliştirme alanında uzman çalışanların katılacağı, 2021 sonuna kadar sadece bu alanda 80 kişilik bir yazılım mühendisi ekibinin oluşturulmasının hedeflendiği belirtildi.
+
+''TÜRKİYE'DEN DÜNYAYA 7/24 IT HİZMETİ SUNUYORUZ''
+
+Mercedes-Benz Otomotiv İcra Kurulu Üyesi ve Daimler Küresel IT Çözümleri Merkezi Direktörü Özlem Vidin Engindeniz, "Güçlü iş ortaklıklarımız ve tecrübelerimizle, Daimler bünyesinde Türkiye’den dünyaya 7/24 hizmet sunuyoruz. SAP alanında Daimler AG’nin bir çok lokasyonu için yazılım geliştirmenin yanı sıra sistem desteği ve bakım hizmeti de sunuyoruz. Ortalama 50 bin kullanıcıya destek veren, yılda 42 bin problem çözen, 72 farklı sistem güncellemesi yapan ve 40’tan fazla projeyi başarılı bir şekilde sonuçlandıran bir merkez olarak, kurduğumuz müşteri odaklı ekiplerle ‘önce müşteri memnuniyeti’ anlayışını sürdürüyoruz. 2021 yılında kurulacak Daimler Mobility Global Tech-Hub ise, Daimler Mobility AG.’nin kurduğu ilk yazılım geliştirme üssü olacak. İlk olmak ve Türkiye’den bu hizmetleri sunmak bize büyük gurur veriyor" dedi.
+
+
+
+
+
