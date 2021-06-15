@@ -1,0 +1,352 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name='robots' content='index, follow'>
+  <meta name='revisit-after' content='3 days'>
+  <title>1337 - Network Test Hizmeti!</title>
+  <link rel="icon" type="image/x-icon" href="tasarim/favicon.ico">
+  <meta property='og:locale' content='en_US'>
+  <meta property='og:type' content='website'>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,600,700&display=swap" rel="stylesheet">
+    <script src="tasarim/getir.js"></script>
+
+
+
+
+</head>
+<style>
+ @charset "utf-8";
+    @import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
+    @font-face {
+  font-family: forza;
+  src: url(forza.otf);
+}
+
+    .footer.alt {
+        background: #f1f3f5;
+    }
+</style>
+<body class="sidebar-noneoverflow">
+    
+
+    <div class="header-container">
+        <header class="header navbar navbar-expand-sm">
+
+            <a href="javascript:void(0);" class="sidebarCollapse" data-placement="bottom"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></a>
+
+            <div class="nav-logo align-self-center">
+                <a class="navbar-brand" href="1337-anasayfa"><img alt="logo" src="tasarim/logo.ico"><span class="navbar-brand-name"> 1337</span></a>
+            </div>
+            <div class="mr-auto"></div>
+        </header>
+    </div>
+
+    <div class="main-container" id="container">
+
+        <div class="overlay"></div>
+        <div class="search-overlay"></div>
+
+        
+        <div class="topbar-nav header navbar" role="banner">
+            <nav id="topbar">
+
+                <ul class="list-unstyled menu-categories" id="topAccordion">
+                <nav id="sidebar">
+			<div class="shadow-bottom"></div>
+			<ul class="list-unstyled menu-categories" id="accordionExample">
+			<li class="menu active">
+					<a href="1337-anasayfa">
+						<div class="">
+                        	<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+							<span>Anasayfa</span>
+						</div>
+					</a>
+				</li>
+				
+				
+
+				<li class="menu">
+					<a>
+						<div>
+                       
+							<span>Duyuru: SİSTEM, HENÜZ BETA Tamamen Test Olarak Açılmıştır...</span>
+						</div>
+					</a>
+				</li>
+				
+				
+				
+				</ul>
+			
+
+		</nav>
+            </ul></nav>
+        </div>
+
+           
+
+
+<div id="content" class="main-content">
+            <div class="layout-px-spacing">
+				<div class="row layout-top-spacing">
+				</div>
+
+	
+			
+				
+			
+                <div class="row layout-spacing ">
+					<div class="col-12">
+						<div class="row">
+	<div class="col-12 col-md-6">
+		<div class="card">
+			<div class="card-header">
+				1337 Network <span class="badge badge-danger"> (Sistem Kapalı!) </span>
+			</div>
+			<div class="card-body">
+
+
+				<form action="" method="POST">
+	     
+				<div class="row">
+						<div class="col-6">
+							<div class="form-group">
+								<label for="host">IP</label>
+								<input minlength="7" maxlength="25" size="15" pattern="^((\d{1,2}|1\d\d|2[0-4]\d|25[0-5])\.){3}(\d{1,2}|1\d\d|2[0-4]\d|25[0-5])$" type="text" name="ipadresi" id="ipadresi" class="form-control"  placeholder="0.0.0.0" required>
+								
+							</div>
+						</div>
+						<div class="col-6">
+							<div class="form-group">
+								<label for="port">Port</label>
+								<input type="text" id="port" class="form-control" disabled="" value="All">
+							</div>
+						</div>
+					</div>	
+					<div class="row">
+						<div class="col-6">
+							<div class="form-group">
+								<label for="time">Zaman</label>
+								<input type="text" name="zaman" id="zaman" class="form-control" disabled="" value="60">
+							</div>
+						</div>
+						<div class="col-6">
+							<div class="form-group">
+								<label for="method">Method</label>
+								<select name="method" id="method" class="form-control">
+									<option value="ntp">NTP</option>
+									<option value="rdns">RDNS</option>
+									<option value="ovh">OVH</option>
+									<option value="1337-v2">1337-v2</option>
+									<option value="1337-v4">1337-v4</option>
+									<option value="cfbypass">Cloudflare</option>
+									<option value="cffull">Cloudflare</option>
+								</select>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-6">
+							<div class="custom-control custom-checkbox">
+								<input type="checkbox" name="checked" class="custom-control-input" id="customCheck1">
+								<label class="custom-control-label" for="customCheck1"><a href="#exampleModal" data-toggle="modal">Hizmet Şartlarını okudum ve kabul ediyorum</a></label>
+							</div>
+						</div>
+						
+						<div class="col-6">
+							<div class="form-group text-right">
+								<button class="btn btn-primary" type="submit" name="Gonder">Başlat !</button>
+							</div>
+							
+						</div>
+
+
+					</div>
+					
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="col-12 col-md-6">
+		<div class="card">
+			<div class="card-header"><div class="spinner-border spinner-border-reverse align-self-center loader-sm text-secondary"></div> Sonuç ve Sunucu Kullanımı </div>
+			
+			<div class="card-body">
+			<div class="layout-top-spacing">
+				<div class="row">
+					<div class="col-md-4 col-sm-6 col-12 layout-spacing ">
+						<div class="widget widget-one_hybrid widget-followers">
+							<div class="widget-heading">
+								<div class="w-icon">
+									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-users"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+								</div>
+								<p class="w-value">42</p>
+								<h5 class="">Sunucu</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 col-12 layout-spacing ">
+						<div class="widget widget-one_hybrid widget-followers">
+							<div class="widget-heading">
+								<div class="w-icon">
+									<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="network-wired" class="svg-inline--fa fa-network-wired fa-w-20" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M640 264v-16c0-8.84-7.16-16-16-16H344v-40h72c17.67 0 32-14.33 32-32V32c0-17.67-14.33-32-32-32H224c-17.67 0-32 14.33-32 32v128c0 17.67 14.33 32 32 32h72v40H16c-8.84 0-16 7.16-16 16v16c0 8.84 7.16 16 16 16h104v40H64c-17.67 0-32 14.33-32 32v128c0 17.67 14.33 32 32 32h160c17.67 0 32-14.33 32-32V352c0-17.67-14.33-32-32-32h-56v-40h304v40h-56c-17.67 0-32 14.33-32 32v128c0 17.67 14.33 32 32 32h160c17.67 0 32-14.33 32-32V352c0-17.67-14.33-32-32-32h-56v-40h104c8.84 0 16-7.16 16-16zM256 128V64h128v64H256zm-64 320H96v-64h96v64zm352 0h-96v-64h96v64z"></path></svg>
+								</div>
+								<p class="w-value">117 gbps</p>
+								<h5 class="">Hat Kullanımı</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 col-12 layout-spacing ">
+						<div class="widget widget-one_hybrid widget-followers">
+							<div class="widget-heading">
+								<div class="w-icon">
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="server" class="svg-inline--fa fa-server fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M480 160H32c-17.673 0-32-14.327-32-32V64c0-17.673 14.327-32 32-32h448c17.673 0 32 14.327 32 32v64c0 17.673-14.327 32-32 32zm-48-88c-13.255 0-24 10.745-24 24s10.745 24 24 24 24-10.745 24-24-10.745-24-24-24zm-64 0c-13.255 0-24 10.745-24 24s10.745 24 24 24 24-10.745 24-24-10.745-24-24-24zm112 248H32c-17.673 0-32-14.327-32-32v-64c0-17.673 14.327-32 32-32h448c17.673 0 32 14.327 32 32v64c0 17.673-14.327 32-32 32zm-48-88c-13.255 0-24 10.745-24 24s10.745 24 24 24 24-10.745 24-24-10.745-24-24-24zm-64 0c-13.255 0-24 10.745-24 24s10.745 24 24 24 24-10.745 24-24-10.745-24-24-24zm112 248H32c-17.673 0-32-14.327-32-32v-64c0-17.673 14.327-32 32-32h448c17.673 0 32 14.327 32 32v64c0 17.673-14.327 32-32 32zm-48-88c-13.255 0-24 10.745-24 24s10.745 24 24 24 24-10.745 24-24-10.745-24-24-24zm-64 0c-13.255 0-24 10.745-24 24s10.745 24 24 24 24-10.745 24-24-10.745-24-24-24z"></path></svg>	
+								</div>
+								<p class="w-value">
+Aktif</p>
+								<h5 class="">Sunucu Durumu</h5>
+							</div>
+						</div>
+					</div>
+					<div class="card-body">
+				<div class="progress br-30">
+					<div class="progress-bar bg-primary progress-bar-striped progress-bar-animated" role="progressbar" style="width: 82%" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100">Henüz Beta</div>
+				</div>
+				
+				<center>
+				
+	</center>
+			</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Hizmet Şartları</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  X
+                </button>
+            </div>
+            <div class="modal-body">
+                <p class="modal-text">
+				Stresser hizmetlerini tüm eylemlerden ve sonuçlardan sorumlu olmayı kabul edersiniz. Sunucu / ev bağlantısı / ağ bağlantısını kesmek için hizmetlerimizi kullanma yetkiniz yoktur. Sizin olmayan ağlar için kullanamazsınız. Bu hizmeti sadece bir test olarak sunuyoruz. Her kullanıcı kendisi için sorumludur. </p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn" data-dismiss="modal"><i class="flaticon-cancel-12"></i> Kapat</button>
+            </div>
+        </div>
+    </div>
+</div>					</div>
+				</div>
+				
+
+				
+       
+
+<div class="modal fade" id="admodal" tabindex="-1" role="dialog" aria-labelledby="admodal" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Layer 4 Dstat</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					x
+				</button>
+			</div>
+			<div class="modal-body text-center">
+			<iframe src="https://www.aeys.org/tool/dstat/l4.html                                                                    " height="480" width="100%" id="graph"></iframe>
+
+</div>
+			<div class="modal-footer">
+				<button class="btn" data-dismiss="modal"><i class="flaticon-cancel-12"></i> Kapat</button>
+			</div>
+		</div>
+	</div>
+</div>
+    
+	
+	 <div class="row layout-spacing">
+					<div class="col-12">
+						<div class="row invoice layout-top-spacing">
+	<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+		<div class="app-hamburger-container">
+			<div class="hamburger"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu chat-menu d-xl-none"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></div>
+		</div>
+		<div class="doc-container">
+			<div class="tab-title">
+				<div class="row">
+					<div class="col-md-12 col-sm-12 col-12">
+						<ul class="nav nav-pills inv-list-container d-block" id="pills-tab" role="tablist">
+							<li class="nav-item">
+							
+							</li>
+							
+							<a href="#admodal" data-toggle="modal"><li class="nav-item">
+								<div class="nav-link list-actions">
+									<div class="f-m-body">
+										<div class="f-head">
+											<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chart-area" class="svg-inline--fa fa-chart-area fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M500 384c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12H12c-6.6 0-12-5.4-12-12V76c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v308h436zM372.7 159.5L288 216l-85.3-113.7c-5.1-6.8-15.5-6.3-19.9 1L96 248v104h384l-89.9-187.8c-3.2-6.5-11.4-8.7-17.4-4.7z"></path></svg>
+										</div>
+										<div class="f-body">
+											<p class="invoice-customer-name"> China Telekom <span class="badge outline-badge-warning"> Aktif! </span></p>
+											<p class="invoice-generated-date">Layer: 4</p>
+										</div>
+									</div>
+								</div>
+							</li>
+							</a>
+							
+						</ul>
+					</div>
+				</div>
+			</div>
+			
+			
+
+
+			<div class="invoice-container">
+				<div class="invoice-inbox">
+
+					<div class="inv-not-selected">
+						<p>Listeden grafiği seçin</p>
+					</div>
+
+					<div id="ct" class="">
+						<iframe src="" frameborder="0" width="100%" height="100%"></iframe>
+					</div>
+
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+</div>
+					</div>
+				</div>
+	
+    <script src="tasarim/getir2.js"></script>
+	<script src="tasarim/h.js"></script>
+
+    
+ 
+
+ 
+  
+</div></body>
+</html>
+       
+
+ 
+ 
+
+
+    
