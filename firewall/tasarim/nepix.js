@@ -1,2 +1,0 @@
-eval(function(p,a,c,k,e,d){e=function(c){return c};if(!''.replace(/^/,String)){while(c--){d[c]=k[c]||c}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('0 2(){$("#9").4(\'10.5\');3(0(){2()},7)}$(8).6(0(){2()});0 1(){$("#11").4(\'12.5\');3(0(){1()},7)}$(8).6(0(){1()});',10,13,'function|nepixvericek2|nepixvericek|setTimeout|load|php|ready|1000|document|verigoster|nepixdurum|verigoster2|nepixdurum2'.split('|'),0,{}))
-
