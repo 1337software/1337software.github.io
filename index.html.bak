@@ -22,7 +22,7 @@
 
     <!-- TITLE-->
   <title>1337 Yazılım ve Bilişim Teknolojileri A.Ş.</title>
-  <script type="module" crossorigin="" src="tasarim/index.4b0d4e52.js"></script>
+ 
   <link rel="modulepreload" href="tasarim/vendor.42d80aa0.js">
   <link rel="stylesheet" href="tasarim/index.ae94b11c.css">
 </head>
