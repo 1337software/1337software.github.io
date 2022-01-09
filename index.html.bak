@@ -19,6 +19,7 @@
     <meta property="og:title" content="1337 Digital">
     <meta property="og:description" content="Yazılım, tasarım ve diğer tüm teknolojik ihtiyaçlarınızı karşılamayı hedefleyen bir dijital medya ajansı.">
     <meta property="og:image" content="tasarim/logo.png">
+	<link rel="shortcut icon" type="image/x-icon" href="tasarim/logo.png">
 
     <!-- TITLE-->
   <title>1337 Yazılım ve Bilişim Teknolojileri A.Ş.</title>
