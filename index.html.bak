@@ -70,7 +70,7 @@
         </div>
         <div id="hero" class="ee ax bc bd be a b c d e f gz" style="height: 457px;">
             <h1 class="bk fa cc ep"><span class="gw gx">1337</span> Technology</h1>
-            <p class="ck cs gt di eo">Yazılım, tasarım ve diğer tüm teknolojik ihtiyaçlarınızı karşılamayı hedefleyen bir dijital medya ajansı.</p>
+            <p class="ck cs gt di eo">Yazılım, otomasyon ve diğer tüm teknolojik ihtiyaçlarınızı karşılamayı hedefleyen bir dijital medya şirketidir.</p>
             <div class="ax be go dg gh bc fh">
                 <a href="#about" class="bt ax bd be df di cx eb as gc eg z ag gk gj gu fh cf"><span class="fa fb by">Bilgi edin</span></a>
                 <a href="#contact" class="bt ax bd be df di cx eb as gc eg k aa gk gj gu fh cf"><span class="fa fb by">Başlayalım</span></a>
@@ -83,7 +83,7 @@
                 <div class="ef ft cl dc" data-v-38d2fa71="">
                     <h3 class="bk fa ca ep" data-v-38d2fa71="">BİZ KİMİZ?</h3>
                     <p class="bh" data-v-38d2fa71="">
-                        Piyasadaki <b>en iyi</b> dijital medya ajansı olmayı hedefleyen bir şirketiz. <br />
+                        Piyasadaki <b>en iyi</b> dijital medya olmayı hedefleyen bir şirketiz. <br />
                         <br />
                         Kurumlara ve bireylere ucuz, pratik, güvenilir ve en kaliteli hizmeti vermeyi amaçlıyoruz.
                     </p>
@@ -151,7 +151,7 @@
                 <div class="ba gv fo dg gs">
                     <div class="v af dk dh as ga fv fq du cq ef">
                         <h5 class="bk fa bx ep et">E-Posta</h5>
-                        <p class="co">E-Posta ile en fazla 24 saat içerisinde size geri dönüt sağlarız.</p>
+                        <p class="co">E-Posta ile en fazla 24 ila 48 saat içerisinde size geri dönüş sağlarız, Hemen ulaşmak için WhatsApp üzerinden ulaşabilirsiniz.</p>
                         <button href="false" class="bt ax bd be df di cx eb as gc au ak bj er bv fk du cv ex ad ao"><span class="fa fb by">hello@1337.com.tr</span></button>
                         <ion-icon name="mail-outline" class="cd dt dx cz fj dw md hydrated" role="img" aria-label="mail outline"></ion-icon>
                     </div>
