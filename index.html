@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Sepetolog Bilişim">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bali Spa & Masaj Masaj Spa ve Kese köpük Hizmetleri">
+    <link rel="icon" type="image/x-icon" href="images/icons/bath-towel.ico">
+
+    <!-- SITE BAŞLIĞI-->
+    <title>Bali Spa & Masaj</title>
+
+    <!-- STIL DOSYASI-->
+    <link href="css/style.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+    <!-- RESPONSIVE CSS -->
+    <link href="css/responsive.min.css" media="screen" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <!-- SOCIAL ICONS -->
+
+    <div class="social">
+        <div class="socialWrapper=" onmouseover="socialOverAnimation()">
+            <div class="facebook" title="Facebook"></div>
+            <div class="tiktok" title="Twitter"></div>
+            <div class="instagram" title="Instagram"></div>
+            <div class="map" title="Google Maps"></div>
+            <div class="whatsapp" title="WhatsApp"></div>
+        </div>
+    </div>
+
+    <div class="socialBig">
+        <div class="socialWrapper" onmouseout="socialOutAnimation()">
+            <div class="facebookBig" title="Facebook"></div>
+            <div class="tiktokBig" title="Tiktok"></div>
+            <div class="instagramBig" title="Instagram"></div>
+            <div class="mapBig" title="Google Maps"></div>
+            <div class="whatsappBig" title="WhatsApp"></div>
+        </div>
+    </div>
+
+    <!-- HEADER -->
+
+    <!-- MOBILE MENU -->
+
+    <div class="mobileMenu" onclick="toggleMobile()">
+        <ul>
+            <li class="x"><a href="javascript:toggleClose();" id="toggleCloseButton">X</a></li>
+            <li class="mobileItem"><a href="index.html" class="linkDecorationNoneMobile">Ana Sayfa</a></li>
+            <li class="mobileItem"><a href="iletisim.html" class="linkDecorationNoneMobile">İletişim</a></li>
+            <li class="mobileItem"><a href="hizmetlerimiz.html" class="linkDecorationNoneMobile">Hizmetlerimiz</a></li>
+        </ul>
+        <div class="menuBottomText"><u>Bali Masaj & Spa</u></div>
+    </div>
+    <header id="header">
+
+        <!-- DESKTOP MENU -->
+        <div class="headerWrapper">
+            <div class="mobileIcon"></div>
+            <div class="headerContent">
+
+                <!-- HEADER LOGO -->
+                <div class="headerLogo"><a href="index.html"><img src="images/logo.webp" height="50px" width="149px"
+                            alt="Spa-Masaj Logo"></a></div>
+
+                <!-- NAVIGATION MENU -->
+
+
+                <nav class="headerMenu">
+
+                    <ul class="menu">
+                        <li class="menuItem"><a href="index.html" class="link">Ana Sayfa</a></li>
+                        <li class="menuItem"><a href="iletisim.html" class="link">İletişim</a></li>
+                        <li class="menuItem"><a href="hizmetlerimiz.html" class="link">Hizmetlerimiz</a></li>
+                    </ul>
+
+                </nav>
+
+            </div>
+
+        </div>
+    </header>
+
+    <div class="sliderBg">
+        <div class="caption"><span class="baliSpa"><u>&nbsp;&nbsp;&nbsp;Bali Masaj & SPA&nbsp;&nbsp;&nbsp;</u></span>
+            <div class="mobilSpace"></div>
+            <p class="baliSlogan">Kendinizi Şımartmanın<br>En Sağlıklı Yolu</p>
+            <div class="mobilSpace"></div>
+            <button class="sliderButton"
+                onclick="location.href='https://wa.me/9005321750924?text=Merhaba%20BaliSpa%20Sitesinden%20Yazd%C4%B1m,%20Randevu%20Almak%20%C4%B0stiyorum'">Rezervasyon
+                Yap</button>
+        </div>
+
+    </div>
+
+    <div class="welcomeGrid">
+
+        <div class="welcomeItem"><img src="images/fotograf-01.webp" class="welcomeImg" alt="Güzellik ve Sağlık"></div>
+        <div class="welcomeItem text">
+            <p class="welcomeHeader">Güzellik ve Sağlık</p>
+            <span class="welcomeMainText"><span class="welcomeBold">Spa Merkezine hoş geldiniz.</span> Spa & Masaj kadar
+                rahatlatıcı bir şey yoktur.
+                Vücudunuzu doğal olarak iyileştirmenize yardımcı olmak için çok çeşitli vücut spa ve masaj terapileri
+                sunuyoruz.
+                Stresli ve yoğunprogramdan rahatlayın.
+            </span>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p class="welcomeHeader">Spa ve Masaj</p>
+            <span class="welcomeMainText"><span class="welcomeBold">Bali SPA Merkezinde sessizlik</span>, enerji,
+                güzellik ve canlılık buluşuyor.
+                Sunduğumuz bakımlar hem bedeninizi hem de ruhunuzu tazeleyecek. Sizi ağırlamaktan ve tesislerimizi ve
+                hizmetlerimizi önermekten memnuniyet
+                duyarız. Stresli ve yoğun programdan rahatlayın.
+            </span>
+        </div>
+
+
+    </div>
+
+    <div class="services">
+        <h1 class="servicesh1">Hizmetlerimiz</h1>
+        <p>&nbsp;</p>
+        <p class="servicesText">Kendini şımartan uzmanlar olarak, bazı harika spa hizmetleri keşfettik...
+            Zihninizi ve bedeninizi rahatlatmak için!</p>
+
+    </div>
+
+    <div class="servicesGrid">
+        <div class="servicesItem1"><span></span><img src="images/hamam.webp" height="300px" width="300px"
+                class="servicesImg1" alt="Hamam"></div>
+        <div class="servicesItem2"><span></span><img src="images/sauna.webp" height="300px" width="300px"
+                class="servicesImg2" alt="Sauna"></div>
+        <div class="servicesItem3"><span></span><img src="images/kese-kopuk.webp" height="300px" width="300px"
+                class="servicesImg3" alt="Kese ve Köpük">
+        </div>
+        <div class="servicesItem4"><span></span><img src="images/masaj.webp" height="300px" width="300px"
+                class="servicesImg4" alt="Masaj"></div>
+        <div class="servicesItemText1"><span class="servicesHeader">Jakuzi</span></div>
+        <div class="servicesItemText2"><span class="servicesHeader">Sauna</span></div>
+        <div class="servicesItemText3"><span class="servicesHeader">Kese ve Köpük</span></div>
+        <div class="servicesItemText4"><span class="servicesHeader">Masaj Çeşitleri</span></div>
+    </div>
+
+    <div class="servicesGridMobile">
+        <div class="mobileServicesItemText1"><span></span><img src="images/hamam.webp" height="265px" width="265px"
+                alt="Hamam" class="servicesImg1"></div>
+        <div class="mobileServicesItemText1"><span class="servicesHeader">Jakuzi</span></div>
+        <div class="mobileServicesItem1"><span></span><img src="images/sauna.webp" height="265px" width="265px"
+                class="servicesImg2" alt="Sauna">
+        </div>
+        <div class="mobileServicesItemText1"><span class="servicesHeader">Sauna</span></div>
+        <div class="mobileServicesItem1"><span></span><img src="images/kese-kopuk.webp" height="265px" width="265px"
+                alt="Kese ve Köpük" class="servicesImg3"></div>
+        <div class="mobileServicesItemText1"><span class="servicesHeader">Kese ve Köpük</span></div>
+        <div class="mobileServicesItem1"><span></span><img src="images/masaj.webp" height="265px" width="265px"
+                class="servicesImg4" alt="Sauna">
+        </div>
+        <div class="mobileServicesItemText1"><span class="servicesHeader">Masaj Çeşitleri</span></div>
+    </div>
+
+
+    <div class="container swiper">
+        <div class="slide-container">
+            <div class="card-wrapper swiper-wrapper">
+                <!-- SLIDE IMAGE 1 -->
+                <div class="card swiper-slide">
+                    <div class="image-box">
+                        <img src="images/slider-01.webp" alt="Bali Spa ve Masaj Fotograf 1">
+                    </div>
+                </div>
+                <!-- SLIDE IMAGE 2 -->
+                <div class="card swiper-slide">
+                    <div class="image-box">
+                        <img src="images/slider-02.webp" alt="Bali Spa ve Masaj Fotograf 2">
+                    </div>
+                </div>
+                <!-- SLIDE IMAGE 3 -->
+                <div class="card swiper-slide">
+                    <div class="image-box">
+                        <img src="images/slider-03.webp" alt="Bali Spa ve Masaj Fotograf 3">
+                    </div>
+                </div>
+                <!-- SLIDE IMAGE 4 -->
+                <div class="card swiper-slide">
+                    <div class="image-box">
+                        <img src="images/slider-04.webp" alt="Bali Spa ve Masaj Fotograf 4">
+                    </div>
+                </div>
+                <!-- SLIDE IMAGE 5 -->
+                <div class="card swiper-slide">
+                    <div class="image-box">
+                        <img src="images/slider-05.webp" alt="Bali Spa ve Masaj Fotograf 5">
+                    </div>
+                </div>
+                <!-- SLIDE IMAGE 6 -->
+                <div class="card swiper-slide">
+                    <div class="image-box">
+                        <img src="images/slider-06.webp" alt="Bali Spa ve Masaj Fotograf 6">
+                    </div>
+                </div>
+                <!-- SLIDE IMAGE 7 -->
+                <div class="card swiper-slide">
+                    <div class="image-box">
+                        <img src="images/slider-07.webp" alt="Bali Spa ve Masaj Fotograf 7">
+                    </div>
+                </div>
+                <!-- SLIDE IMAGE 8 -->
+                <div class="card swiper-slide">
+                    <div class="image-box">
+                        <img src="images/slider-08.webp" alt="Bali Spa ve Masaj Fotograf 8">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-button-next swiper-navBtn"></div>
+        <div class="swiper-button-prev swiper-navBtn"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+
+    <div class="campaigns">
+        <div class="campaignsHeader">Kampanyalar</div>
+        <div class="campaignsGrid">
+            <div class="campaignsLeftImage"></div>
+            <div></div>
+            <div class="campaigns1">
+                <div class="campaignsBox">
+                    <p>3 masaj paketi alana<br>1 masaj seansı hediye</p>
+                    <p>&nbsp;</p>
+                    <p><img src="images/3-masaj.webp" height="127px" width="181px" alt="Masaj Paketlerimiz 3"></p>
+                </div>
+            </div>
+            <div class="campaigns2">
+                <div class="campaignsBox">
+                    <p>5 masaj paketi alana<br>2 masaj seansı hediye</p>
+                    <p>&nbsp;</p>
+                    <p><img src="images/5-masaj.webp" height="127px" width="181px" alt="Masaj Paketlerimiz 5"></p>
+                </div>
+                <div class="campaignsImg2"></div>
+            </div>
+            <div></div>
+            <div class="campaignsRightImage"></div>
+        </div>
+
+        <div class="campaignsBottom">Tüm paketlerimiz için <a href="#" class="linkDecorationNone">tıklayın.</a></div>
+
+    </div>
+
+    <div class="description">
+        <div class="descriptionGrid">
+            <div class="descriptionLeftImage"></div>
+            <div></div>
+            <div class="descriptionText"><span>SPA (Selus Per Aqua) kelimesi Latincede<br>Sudan Gelen Sağlık veya Su ile
+                    Gelen Sağlık anlamlarına
+                    gelir.<br>Zaten SPA’nın kökenleri de Romalılara uzanmaktadır.<br>Zaman içinde yayılan SPA temel
+                    olarak su
+                    aile yapılan terapi ve bakımları kapsar.<br> Bu hizmetlerin sunulduğu yerler ise SPA veya Spa
+                    Merkezi
+                    olarak
+                    tanımlanır.<br></span>
+                <p class="randevuBaliSpa">Bali Masaj & SPA<span class="descriptionText2"> ile kusursuz bir terapi için
+                        randevu alın.</span></p>
+            </div>
+            <div></div>
+            <div class="descriptionRightImage"> </div>
+
+        </div>
+    </div>
+
+    <div class="randevuSection">
+    <form onsubmit="submitForm(event)">
+        <div>
+            <input type="date" id="session-date" name="tarih" placeholder="Tarih" required>
+        </div>
+        <div>
+            <input type="text" id="adsoyad" name="adsoyad" placeholder="Ad Soyad" required>
+        </div>
+        <div>
+            <input type="tel" id="phone" name="phone" placeholder="Telefon" required>
+        </div>
+		<div class="captcha">
+                <input type="phone" class="cpt" disabled>
+                <div class="refreshButton"></div>
+            </div>
+
+            <div class="captchaEnter">
+                <input type="phone" class="cpt captchaEnter" placeholder="Captcha" maxlength="5">
+                <div class="checkButton"></div>
+            </div>
+        <div>
+            <button class="formButton" type="submit">Gönder</button>
+        </div>
+    </form>
+
+
+<script>
+function submitForm(event) {
+    event.preventDefault();
+    const tarih = document.getElementById("session-date").value;
+    const adSoyad = document.getElementById("adsoyad").value;
+    const telefon = document.getElementById("phone").value;
+    
+    const baseURL = "https://wa.me/"; // coded by nepix software
+    const phoneNumber = "9005321750924"; // coded by nepix software
+    const message = `Randevu Talebi\nTarih: ${tarih}\nAd Soyad: ${adSoyad}\nTelefon: ${telefon} randevu almak istiyorum`;
+
+    const encodedMessage = encodeURIComponent(message);
+    const fullURL = `${baseURL}${phoneNumber}/?text=${encodedMessage}`;
+
+    window.location.href = fullURL;
+}
+</script>
+
+        <div class="randevuSectionBottom">
+            <p>Randevu ve bilgi almak için <a href="tel:+905321750924" class="linkDecorationNone">0 532 175 09
+                    24</a><br>
+                <span class="randevuBottom">Bali Masaj & SPA</span> 12:00–01:00 arası hergün ulaşabilirsiniz.
+            </p>
+        </div>
+
+    </div>
+
+    <div class="testimonials clearfix">
+
+        <div class="slider">
+            <div class="slides">
+
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+
+                <div class="slide first">
+                    <div class="testimonialsStar">
+                        <div class="star5"></div>
+                    </div>
+                    <p class="customerName">Semih Akarçay</p>
+                    <p class="testimonialsText">Edirne’deki en iyi hizmeti veren spa kesinlikle. Harika bir ortamı
+                        var.
+                        Dekorasyon insanı büyülüyor.
+                        Masaj terapistleri alanında çok yetenekli. Sauna ve Jakuzi hizmeti de
+                        bulunuyor. Gerçekten verdiğin paranın karşılığını alıyorsunuz.
+                        Ki fiyatlar da piyasaya göre daha uygun zaten.
+                        Kanallarında kampanya yapmışlar. YouTube Enes ve ika adıyla giderseniz yüzde on indirim
+                        yapıyorlar :)</p>
+                </div>
+
+                <div class="slide">
+                    <div class="testimonialsStar">
+                        <div class="star5"></div>
+                    </div>
+                    <p class="customerName">Ulin Dewi Anggara Wati</p>
+                    <p class="testimonialsText">İlk kez Bali Masaj & Spa’ya gittim ve çok memnun kaldım. Oncelikle
+                        personeli çok iyi masaj yaptı. Yeri de yeni tertemiz. Duvar dekorasyonu harika olmuş. Edirne’ye
+                        tekrar gidersem mutlaka geleceğim. Size çok tavsiye ederim deneyin ve çok rahat hissedersiniz.
+                    </p>
+                </div>
+
+                <div class="slide">
+                    <div class="testimonialsStar">
+                        <div class="star5"></div>
+                    </div>
+                    <p class="customerName">Meltem Güler</p>
+                    <p class="testimonialsText">Güvenilir kişilerin ellerinde çok güzel temiz ve nezih Bali masaj ve spa
+                        merkezinde kendinizi şımartabilirsiz. İka ve Enes’in misafirperverliği kendinizi
+                        evinizde hissettiriyor.</p>
+                </div>
+
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+
+                </div>
+
+            </div>
+
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="servicesSection2">
+        <div class="servicesSection2Grid">
+            <div class="section2Img"></div>
+            <div class="section2Text">
+                <span class="section2Header">Hamile Masajı</span>
+                <p><span class="section2Bold">Bali Masaj & SPA Merkezine</span> hoş geldiniz.</p>
+                <p>Hamile masajı'nın etkili olduğu alanlar hamileliğin ilerleyen aylarıyla birlikte ortaya çıkan
+                    değişimlere paralel
+                    olarak kurgulanmıştır. Omurgaya binen yükün artması,
+                    omurga ve ona bağlı kaslarda gerilimler oluşmasına yol
+                    açar. Hamile masajı özellikle boyun, baş ve sırt bölgesinde oluşan gerginliklerin giderilmesinde
+                    etkilidir. Pelvik
+                    bölge üzerinde uygulanan hafif dokunuşlar doğuma
+                    yaklaşırken bedeninizin ihtiyaç duyduğu esnekliği kazanmanıza yardımcı olur.</p>
+                <p>&nbsp;</p>
+                <p>Dolaşım bozukluklarının sebep olduğu siyatik, ödem ağrıları ve krampların giderilmesi, (düzenli
+                    terapi özellikle
+                    siyatik ağrılarını ciddi oranda azaltmaktadır) ve enerjetik olarak bedenin canlandırılmasını
+                    içermektedir.</p>
+                <p>&nbsp;</p>
+                <p>Doğal, cildi besleyen yağlarla uygulanan masaj, ciltte
+                    oluşan gerginlikleri de gidermektedir.</p>
+                <p>&nbsp;</p>
+                <p>Kişiye özel olarak uygulanan masaj seansına, 4. Aydan
+                    başlayarak hamileliğin son haftalarına kadar rahatlıkla
+                    devam edilebilir.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="servicesSection2">
+        <div class="servicesSection2Grid">
+            <div class="section2Text">
+                <span class="section2Header">Sıcak Taş Masajı</span>
+                <p><span class="section2Bold">Bali Masaj & SPA Merkezine</span> hoş geldiniz.</p>
+                <p>sıcak, volkanik veya farklı tür taşlarla uygulanan bir
+                    masaj tekniğidir. Spa Masajı süresince terapist sıcak taşları vücudunuzun belirli noktalarına
+                    yerleştirir. Kullanılan
+                    taşların kendilerine has bir sıcaklığı olduğu için kaslar
+                    ısınmaya ve vücut rahatlamaya başlar. Masaj boyunca
+                    sıcaklıklarını korur ve bu alanların soğumasını ve akışın
+                    azalmasını önler. Böylelikle terapist ısınan bölgeye etkili
+                    bir şekilde müdahale edebilir.</p>
+                <p>&nbsp;</p>
+                <p>Sıcak taş masajının birden fazla faydası bulunmaktadır.</p>
+                <p>&nbsp;</p>
+                <p>
+                <ul>
+                    <li>Ağrı: Araştırmalar sıcak taş masajının fibromiyalji ve
+                        romatoid artrit gibi hastalıklarında semptomların rahatlamasını sağlayabileceğini
+                        göstermektedir. Bu
+                        yüzden herhangi bir hastalığa sahip olunsun veya olunmasın ağrı kesici özelliğe sahiptir.</li>
+                </ul>
+                </p>
+                <p>&nbsp;</p>
+                <p>
+                <ul>
+                    <li>Stres: Masajın her türünde olduğu gibi sıcak taş masajı
+                        da stres giderici bir etkiye sahiptir. Kardiyovasküler sağlığı iyileştirdiği için stresi ve
+                        endişeyi azalttığı bilinmektedir.</li>
+                </ul>
+                </p>
+            </div>
+            <div class="section3Img"></div>
+        </div>
+    </div>
+
+    <div class="allServices">
+        <p>Tüm Hizmetlerimiz için <a href="hizmetlerimiz.html" class="linkDecorationNone">tıklayın</a></p>
+    </div>
+
+    <div class="googleMapsGrid">
+        <div></div>
+        <div class="googleMaps"><iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2980.387762020723!2d26.59243589062002!3d41.66896830440213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b32fa383bee1bf%3A0x5fa7832cd03c282f!2sBali%20Masaj%20%26%20Spa%20Edirne!5e0!3m2!1str!2str!4v1689158782127!5m2!1str!2str"
+                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        <div></div>
+    </div>
+
+    <div class="rock">
+        <div class="rockGrid">
+            <div class="rockImgLeft"></div>
+            <div class="rockImgRight"></div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footerHeader">
+            <p>Bali Masaj & SPA</p>
+            <p class="clock">12:00-01:00 arası her gün ulaşabilirsiniz.</p>
+        </div>
+
+        <div class="footerGrid">
+            <div class="footerInstagram">
+                <div class="instagramIcon"></div>
+                <div class="footerText">@balimasajspa</div>
+            </div>
+            <div class="footerPhone">
+                <div class="phoneIcon"></div>
+                <div class="footerText">Randevu İçin<br>0532 175 09 24</div>
+            </div>
+            <div class="footerMap">
+                <div class="mapIcon"></div>
+                <div class="footerText">Şükrüpaşa, Mutlu Sk. Ada Apt no: 1<br>22030 Merkez/Edirne</div>
+            </div>
+        </div>
+
+    </footer>
+
+    <div class="corparate"><span class="bali">Bali Masaj & SPA</span> tüm hakları saklıdır. <br>Tasarım ve Yazılım<br>
+        <span class="bali"><a href="https://sepetolog.com.tr" class="linkDecorationNone" target="_blank">SEPETOLOG</a> &
+            <a href="https://nepix.com.tr" class="linkDecorationNone" target="_blank">NEPİXSOFTWARE</a></span>
+    </div>
+
+
+    <script src="js/stickyMenu.js"></script>
+    <script src="js/animation.js" defer></script>
+    <script src="js/responsive.js" defer></script>
+    <script src="js/socialicons.js"></script>
+    <script src="js/chaptcha.js" defer></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/nepix.js" defer></script> <!-- CODED BY NEPIX SOFTWARE - https://nepix.com.tr/ -->
+
+</body>
+
+</html>
